@@ -27,6 +27,11 @@ pipeline {
                 }
             }
         }
+        stage('Docker'){
+            steps{
+                sh "docker build -t toystoy-$BUILD_NUMBER ."
+            }
+        }
     }
 }
 
