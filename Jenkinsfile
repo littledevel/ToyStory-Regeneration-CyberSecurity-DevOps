@@ -15,6 +15,7 @@ pipeline {
                 // Run Maven on a Unix agent.
                 sh "mvn clean package"
 
+
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
@@ -28,7 +29,9 @@ pipeline {
             }
         }
         stage('Docker'){
+
             steps{
+                sh 'whoami'
                 sh "docker build -t toystoy-$BUILD_NUMBER ."
             }
         }
