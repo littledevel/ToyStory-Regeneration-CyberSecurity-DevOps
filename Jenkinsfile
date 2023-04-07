@@ -54,7 +54,7 @@ pipeline {
             steps{
                 sh  "echo $DOCKERHUB_CREDS_PSW | docker login -u $DOCKERHUB_CREDS_USR --password-stdin"
                 sh "docker tag toystory-$BUILD_NUMBER brokenleg/toystory-$BUILD_NUMBER"
-                sh "docker push toystory-$BUILD_NUMBER"
+                sh "docker push brokenleg/toystory-$BUILD_NUMBER"
             }
         }
     }
