@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>gr.athtech</groupId>
-    <artifactId>ToyStoryWithLogin</artifactId>
+    <artifactId>ToyStory</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ToyStoryWithLogin</name>
-    <description>simple application</description>
+    <name>ToyStory</name>
+    <description>Toy Story from Galaxy</description>
 
     <properties>
-        <java.version>8</java.version>
+        <java.version>11</java.version>
         <start-class>gr.athtech.ToyStory.ToyStoryApplication</start-class>
     </properties>
 
@@ -87,7 +87,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>ToyStoryWithLogin</finalName>
+        <finalName>ToyStory</finalName>
     </build>
 
 </project>
