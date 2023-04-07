@@ -1,7 +1,7 @@
-package gr.athtech.toDoAppWithLogin.service;
+package gr.athtech.ToyStory.service;
 
-import gr.athtech.toDoAppWithLogin.model.security.SessionUser;
-import gr.athtech.toDoAppWithLogin.model.security.User;
+import gr.athtech.ToyStory.model.security.SessionUser;
+import gr.athtech.ToyStory.model.security.User;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;

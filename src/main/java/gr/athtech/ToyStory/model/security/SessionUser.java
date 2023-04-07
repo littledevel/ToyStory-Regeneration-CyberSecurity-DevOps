@@ -1,4 +1,4 @@
-package gr.athtech.toDoAppWithLogin.model.security;
+package gr.athtech.ToyStory.model.security;
 
 
 import org.springframework.security.core.GrantedAuthority;

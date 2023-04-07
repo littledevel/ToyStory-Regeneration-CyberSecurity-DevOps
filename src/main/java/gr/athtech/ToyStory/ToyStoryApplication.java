@@ -1,15 +1,15 @@
-package gr.athtech.toDoAppWithLogin;
+package gr.athtech.ToyStory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToDoAppWithLoginApplication {
+public class ToyStoryApplication {
 
     private static boolean firstTime = true;
 
     public static void main(String[] args) {
-        SpringApplication.run(ToDoAppWithLoginApplication.class, args);
+        SpringApplication.run(ToyStoryApplication.class, args);
     }
 
     public static boolean isFirstTime() {
@@ -17,6 +17,6 @@ public class ToDoAppWithLoginApplication {
     }
 
     public static void setFirstTime(boolean firstTime) {
-        ToDoAppWithLoginApplication.firstTime = firstTime;
+        ToyStoryApplication.firstTime = firstTime;
     }
 }

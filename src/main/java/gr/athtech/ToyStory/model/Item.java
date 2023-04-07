@@ -1,4 +1,4 @@
-package gr.athtech.toDoAppWithLogin.model;
+package gr.athtech.ToyStory.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

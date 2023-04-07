@@ -1,10 +1,10 @@
-package gr.athtech.toDoAppWithLogin.controller;
+package gr.athtech.ToyStory.controller;
 
-import gr.athtech.toDoAppWithLogin.ToDoAppWithLoginApplication;
-import gr.athtech.toDoAppWithLogin.model.Item;
-import gr.athtech.toDoAppWithLogin.service.InitiationService;
-import gr.athtech.toDoAppWithLogin.service.ItemService;
-import gr.athtech.toDoAppWithLogin.service.SessionService;
+import gr.athtech.ToyStory.ToyStoryApplication;
+import gr.athtech.ToyStory.model.Item;
+import gr.athtech.ToyStory.service.InitiationService;
+import gr.athtech.ToyStory.service.ItemService;
+import gr.athtech.ToyStory.service.SessionService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,9 +32,9 @@ public class MainController {
     public String login() {
         boolean loggedIn;
 
-        if(ToDoAppWithLoginApplication.isFirstTime()) {
+        if(ToyStoryApplication.isFirstTime()) {
             initiationService.initiateDatabase();
-            ToDoAppWithLoginApplication.setFirstTime(false);
+            ToyStoryApplication.setFirstTime(false);
         }
 
         loggedIn = sessionService.isUserLoggedIn(SecurityContextHolder.getContext().getAuthentication());

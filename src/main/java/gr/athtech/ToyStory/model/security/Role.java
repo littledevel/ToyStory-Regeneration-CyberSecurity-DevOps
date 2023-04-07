@@ -1,4 +1,4 @@
-package gr.athtech.toDoAppWithLogin.model.security;
+package gr.athtech.ToyStory.model.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,5 +1,5 @@
-package gr.athtech.toDoAppWithLogin;
-import gr.athtech.toDoAppWithLogin.service.UserDetailsServiceImpl;
+package gr.athtech.ToyStory;
+import gr.athtech.ToyStory.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

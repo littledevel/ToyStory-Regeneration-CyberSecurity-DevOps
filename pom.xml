@@ -9,14 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>gr.athtech</groupId>
-    <artifactId>toDoAppWithLogin</artifactId>
+    <artifactId>ToyStoryWithLogin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>toDoAppWithLogin</name>
+    <name>ToyStoryWithLogin</name>
     <description>simple application</description>
 
     <properties>
         <java.version>8</java.version>
-        <start-class>gr.athtech.toDoAppWithLogin.ToDoAppWithLoginApplication</start-class>
+        <start-class>gr.athtech.ToyStory.ToyStoryApplication</start-class>
     </properties>
 
     <dependencies>
@@ -87,7 +87,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>toDoAppWithLogin</finalName>
+        <finalName>ToyStoryWithLogin</finalName>
     </build>
 
 </project>

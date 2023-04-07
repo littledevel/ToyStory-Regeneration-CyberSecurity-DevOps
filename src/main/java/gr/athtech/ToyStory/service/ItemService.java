@@ -1,7 +1,7 @@
-package gr.athtech.toDoAppWithLogin.service;
+package gr.athtech.ToyStory.service;
 
-import gr.athtech.toDoAppWithLogin.model.Item;
-import gr.athtech.toDoAppWithLogin.repository.ItemRepository;
+import gr.athtech.ToyStory.model.Item;
+import gr.athtech.ToyStory.repository.ItemRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

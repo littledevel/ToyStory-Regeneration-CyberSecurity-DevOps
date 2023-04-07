@@ -1,6 +1,6 @@
-package gr.athtech.toDoAppWithLogin.repository;
+package gr.athtech.ToyStory.repository;
 
-import gr.athtech.toDoAppWithLogin.model.Item;
+import gr.athtech.ToyStory.model.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

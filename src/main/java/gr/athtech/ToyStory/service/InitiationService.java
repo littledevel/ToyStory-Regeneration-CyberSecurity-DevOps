@@ -1,9 +1,9 @@
-package gr.athtech.toDoAppWithLogin.service;
+package gr.athtech.ToyStory.service;
 
-import gr.athtech.toDoAppWithLogin.model.security.Role;
-import gr.athtech.toDoAppWithLogin.model.security.User;
-import gr.athtech.toDoAppWithLogin.repository.RoleRepository;
-import gr.athtech.toDoAppWithLogin.repository.UserRepository;
+import gr.athtech.ToyStory.model.security.Role;
+import gr.athtech.ToyStory.model.security.User;
+import gr.athtech.ToyStory.repository.RoleRepository;
+import gr.athtech.ToyStory.repository.UserRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 

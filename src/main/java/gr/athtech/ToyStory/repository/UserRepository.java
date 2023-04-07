@@ -1,6 +1,6 @@
-package gr.athtech.toDoAppWithLogin.repository;
+package gr.athtech.ToyStory.repository;
 
-import gr.athtech.toDoAppWithLogin.model.security.User;
+import gr.athtech.ToyStory.model.security.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
