@@ -11,13 +11,16 @@ pipeline {
             steps {
                 git 'https://github.com/littledevel/ToyStory-Regeneration-CyberSecurity-DevOps.git'
             }
+        }
         stage('Validate') {
             steps {
                 sh "mvn clean validate"
             }
         }
         stage('Build'){
-            sh "mvn compile"
+            steps {
+                sh "mvn compile"
+            }
         }
         stage('Test') {
             steps {
@@ -50,7 +53,6 @@ pipeline {
                 sh "docker push toystory-$BUILD_NUMBER"
             }
         }
- 
     }
 }
 
