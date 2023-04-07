@@ -49,7 +49,7 @@ pipeline {
         }
         stage('Docker Publish'){
             steps{
-                sh "docker tag toystory-$BUILD_NUMBER kmakedos/toystory-$BUILD_NUMBER"
+                sh "docker tag toystory-$BUILD_NUMBER brokenleg/toystory-$BUILD_NUMBER"
                 sh "docker push toystory-$BUILD_NUMBER"
             }
         }
